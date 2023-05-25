@@ -1,0 +1,7 @@
+<ul>
+    <div *ngFor="let i of tab">
+    <li>{{i.title}} - nombre de condidat: {{i.nbCandidate}} <button [disabled]="i.nbCandidate == 0" (click)="transfert(i)">postuler</button><a [routerLink]="['details', i.id]">details</a></li>
+
+    </div>
+  </ul>
+  <router-outlet></router-outlet>

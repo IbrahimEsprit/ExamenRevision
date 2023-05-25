@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Login Page</title>
+</head>
+<body>
+  <div style="width: 200px; margin: 100px auto; text-align: center;">
+    <h2>Authentication</h2>
+    <form (ngSubmit)="login()">
+        <fieldset>
+            <legend>Authentication</legend>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter your username" [(ngModel)]="username"><br><br>
+            
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password" [(ngModel)]="password"><br><br>
+            
+            <input type="submit" value="Login">
+        </fieldset>
+    </form>
+    <p *ngIf="error">donner invalide</p>
+  </div>
+</body>
+</html>

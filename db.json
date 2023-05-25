@@ -1,0 +1,18 @@
+{
+  "offers": [
+    {
+      "id": 1,
+      "title" : "JAva developer",
+      "company": "Agena",
+      "description": "hello",
+      "nbCandidate" : 0
+    },
+    {
+      "id": 2,
+      "title" : "JAva developer2",
+      "company": "Agena300",
+      "description": "hello2",
+      "nbCandidate" : 5
+    }
+  ]
+}
